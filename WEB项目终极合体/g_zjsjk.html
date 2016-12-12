@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/special.css" rel="stylesheet">
+    <style>
+        /*.aa{*/
+            /*width:1000px;*/
+            /*min-height: 200px;*/
+            /*margin: 0 auto;*/
+        /*}*/
+        /*.aa:after{*/
+            /*height: 0;*/
+            /*content:"" ;*/
+            /*visibility: hidden;*/
+            /*display: block;*/
+            /*clear: both;*/
+        /*}*/
+        /*.gtitle{*/
+            /*width:1000px;*/
+            /*height: 130px;*/
+            /*background-image: url(images/gtitle.jpg);*/
+            /*margin-bottom: 10px;*/
+        /*}*/
+        /*.g_title{*/
+            /*width:300px;*/
+            /*height: 50px;*/
+            /*background-color: #a2dbff;*/
+        /*}*/
+        /*.g_text{*/
+            /*background-image: url(images/g_zjss.jpg);*/
+            /*height: 51px;*/
+            /*width: 300px;*/
+
+        /*}*/
+        /*.g_bd{*/
+            /*margin-top: 16px;*/
+            /*margin-left: 20px;*/
+            /*width: 250px;*/
+            /*height: 300px;*/
+            /*background-color: #e8f3f9;*/
+        /*}*/
+
+        /*.g_input{*/
+            /*height: 20px;*/
+            /*width: 180px;*/
+        /*}*/
+        /*.g_input2{*/
+            /*height: 23px;*/
+            /*width: 182px;*/
+        /*}*/
+        /*.g_title2{*/
+            /*width: 690px;*/
+            /*height: 50px;*/
+            /*margin-right: 0px;*/
+            /*background-color: #e3e3e3;*/
+        /*}*/
+        /*.g_text2{*/
+            /*background-image: url(images/g_zjsjk_test.jpg);*/
+            /*width: 111px;*/
+            /*height: 34px;*/
+            /*line-height: 50px;*/
+            /*float: left;*/
+            /*margin-top: 10px;*/
+            /*margin-left: 10px;*/
+        /*}*/
+        /*.g_text3{*/
+            /*float: right;*/
+            /*height: 50px;*/
+            /*width: 230px;*/
+            /*line-height: 50px;*/
+        /*}*/
+        /*.g_center{*/
+            /*clear: both;*/
+
+
+        /*}*/
+        /*.g_pic{*/
+            /*background-image: url("images/g_zjsjk_pic.jpg");*/
+            /*width:186px;*/
+            /*height: 240px;*/
+        /*}*/
+        /*.g_text5{*/
+            /*width: 499px;*/
+            /*height: 25px;*/
+            /*background-color: #e4f1f9;*/
+            /*color:red;*/
+            /*font-weight: bolder;*/
+            /*line-height: 25px;*/
+        /*}*/
+        /*.g_text6{*/
+            /*padding-left: 0px;*/
+            /*float: left;*/
+        /*}*/
+        /*.g_text6 li{*/
+            /*width: 300px;*/
+            /*height: 30px;*/
+
+            /*list-style: none;*/
+            /*line-height: 30px;*/
+
+        /*}*/
+        /*.g_text7{*/
+            /*float: left;*/
+            /*padding: 0px;*/
+        /*}*/
+        /*.g_text7 li{*/
+            /*width: 160px;*/
+            /*height: 30px;*/
+
+            /*list-style: none;*/
+            /*line-height: 30px;*/
+        /*}*/
+        /*.g_text8{*/
+            /*list-style: none;*/
+            /*clear: both;*/
+            /*padding: 0px;*/
+        /*}*/
+        /*.g_pic,.g_text4{*/
+            /*float:left;*/
+
+        /*}*/
+        /*.g_text4{*/
+            /*margin-left: 0px;*/
+            /*margin-top: 13px;*/
+        /*}*/
+        /*.g_left,.g_right{*/
+            /*float: left;*/
+        /*}*/
+        /*.g_right{*/
+            /*margin-left: 8px;*/
+        /*}*/
+        /*.g_search{*/
+            /*margin-left: 50px;*/
+            /*margin-top: 20px;*/
+            /*width:300px;*/
+            /*height: 40px;*/
+        /*}*/
+        /*.g_search1{*/
+            /*background-image: url(images/g_search.jpg);*/
+            /*width:85px;*/
+            /*height: 37px;*/
+            /*float: left;*/
+        /*}*/
+        /*.g_search2{*/
+            /*background-image: url(images/g_search.jpg);*/
+            /*width:85px;*/
+            /*height: 37px;*/
+            /*background-position: 0px 37px ;*/
+            /*float: left;*/
+        /*}*/
+        /*.g_line{*/
+            /*background-color: blue;*/
+            /*overflow: hidden;*/
+            /*width:680px;*/
+            /*height: 1px;*/
+            /*clear: both;*/
+            /*margin-bottom: 15px;*/
+        /*}*/
+
+        /*.yema-1{*/
+            /*width: 690px;*/
+            /*height: 25px;*/
+
+            /*float: left;*/
+            /*margin-left: 30px;*/
+        /*}*/
+        /*.yema-1 li{*/
+            /*float: left;*/
+            /*list-style: none;*/
+            /*text-align: center;*/
+            /*line-height: 25px;*/
+            /*margin-left: 10px;*/
+            /*font-size: 12px;*/
+            /*color: #046cb3;*/
+        /*}*/
+        /*.yema-1 li:hover{*/
+            /*background-color: #cbcbcd;*/
+        /*}*/
+        /*.yema-1-1{*/
+            /*width: 40px;height: 25px;*/
+            /*border:1px solid #cbcbcb;*/
+        /*}*/
+        /*.yema-1-2{*/
+            /*width: 40px;height: 25px;*/
+            /*border: 1px solid #cbcbcb;*/
+        /*}*/
+        /*.yema-1-4{*/
+            /*width: 20px;*/
+            /*height: 25px;*/
+            /*border: 1px solid #cbcbcb;*/
+        /*}*/
+        /*.yema-1-1-s{*/
+            /*color: #000000;*/
+        /*}*/
+        /*.yema-1-3{*/
+            /*width: 40px;height: 25px;*/
+        /*}*/
+        /*.g_border{*/
+            /*font-weight: bolder;*/
+        /*}*/
+        /*.g_color{*/
+            /*color: blue;*/
+        /*}*/
+        /*.g_right{*/
+            /*width:685px;*/
+            /*min-height: 1000px;*/
+
+        /*}*/
+        /*.g_left{*/
+            /*width: 300px;*/
+            /*min-height: 1400px;*/
+            /*background-color: #e8f3f9;*/
+
+        /*}*/
+        /*.tongyongleft-pic1{*/
+            /*background-image: url('images/jishitongxun.jpg');*/
+            /*width: 300px;*/
+            /*height: 50px;*/
+            /*float: left;*/
+        /*}*/
+        /*.tongyongleft-huiyuanliebiao{*/
+            /*width: 300px;*/
+            /*height: 300px;*/
+            /*float: left;*/
+            /*background-color: #e8f3f9;*/
+        /*}*/
+        /*.tongyongleft-huiyuanliebiao-word{*/
+            /*width: 300px;*/
+            /*height: 50px;*/
+            /*line-height: 50px;*/
+            /*float: left;*/
+            /*margin-left:20px;*/
+            /*font-weight: bold;*/
+            /*font-size: 15px;*/
+        /*}*/
+        /*.tongyongleft-huiyuanliebiao-pic{*/
+            /*width: 300px;*/
+            /*height: 250px;*/
+            /*float: left;*/
+            /*margin-left:30px;*/
+            /*font-size: 12px;*/
+        /*}*/
+        /*.tongyongleft-huiyuanliebiao-pic li{*/
+            /*width: 65px;*/
+            /*height:100px;*/
+
+            /*float: left;*/
+            /*list-style: none;*/
+        /*}*/
+        /*.tongyongleft-pic2{*/
+            /*background-image: url('images/lianxiwomen.jpg');*/
+            /*width: 300px;*/
+            /*height: 50px;*/
+            /*float: left;*/
+        /*}*/
+        /*.tongyongleft-all-bottom {*/
+            /*font-size: 14px;*/
+            /*width: 300px;*/
+            /*height: 250px border : dashed;*/
+            /*padding-top: 30px;*/
+            /*padding-left: 20px;*/
+            /*background-color: #e8f3f9;*/
+        /*}*/
+        /*.tongyongleft-all-bottom td{*/
+            /*height:30px;*/
+        /*}*/
+        /*.tongyongleft-all-bottom-t1{*/
+            /*width:90px;*/
+            /*height:20px*/
+        /*float: left;*/
+            /*font-size: 14px;*/
+        /*}*/
+        /*.tongyongleft-all-bottom-t2{*/
+            /*width:200px;*/
+            /*height:30px*/
+        /*float: left;*/
+            /*font-size: 14px;*/
+        /*}*/
+        /*.tongyongleft-all-bottom-t3{*/
+            /*width:200px;*/
+            /*height:30px*/
+        /*float: left;*/
+            /*font-size: 14px;*/
+            /*color: red;*/
+        /*}*/
+        /*.tongyongleft-all-bottom-t1-s{*/
+            /*color: #000000;*/
+            /*font-weight: bold;*/
+            /*font-size: 14px;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+<!--head-->
+<div class="headfirst">
+    <div class="headfirst01">
+        <div class="headfirstyhdl">欢迎 <span class="hongse">某某某</span> 登录网站! 请参与 </div>
+        <div class="headfirstjs"></div>
+        <div class="headfirstyj"></div>
+        <div class="headfirstqz"></div>
+        <div class="headfirstin">关键字<input type="text" class="headfirstinput"></div>
+        <div class="headfirstsearch"></div>
+    </div>
+</div>
+<div class="headsecond">
+    <div class="headsecond01"><div class="headsecondzi">中文版 丨Pyccknn丨English </div>
+    </div>
+</div>
+<div class="headmenu">
+    <ul class="menu">
+        <li>首页</li>
+        <li>中心概况
+            <ul class="menu1">
+                <a href="zhongxingaikuang.html"> <li>中心简介</li></a>
+                <li>组织机构</li>
+                <li>联系我们</li>
+                <li>免责声明</li>
+            </ul>
+        </li>
+        <li>新闻中心
+            <ul class="menu1">
+                <li>中心新闻</li>
+                <li>业内要闻</li>
+                <a href="tongyongliebiao.html"> <li>图片新闻</li></a>
+                <li>公告通知</li>
+            </ul>
+        </li>
+        <li>政策法规</li>
+        <li>战略合作
+            <ul class="menu1 menu3">
+                <a href="zhanluehezuo.html"> <li>文化领域</li></a>
+                <li>旅游领域</li>
+                <li>教育领域</li>
+                <li>传媒领域</li>
+                <li>法律领域</li>
+                <li>战略领域</li>
+                <li>档案领域</li>
+            </ul>
+        </li>
+        <li>信息资源
+            <ul class="menu1 menu4">
+                <a href="xinxiziyuan.html"> <li>俄文数据库</li></a>
+                <li>中文数据库</li>
+            </ul>
+        </li>
+        <li>专家数据库
+            <ul class="menu1 menu4">
+                <a href="g_zjsjk.html"> <li>国内专家</li></a>
+                <li>国外专家</li>
+            </ul>
+        </li>
+        <li>科研成果
+            <ul class="menu1 menu5">
+                <a href="g_kyxm.html">  <li>科研项目</li></a>
+                <a href="kycgkylwxx.html">  <li>科研论文</li></a>
+                <a href="kycgkyzz.html"> <li>科研著作</li></a>
+            </ul>
+        </li>
+        <li>校企合作</li>
+        <li>在线交流
+            <ul class="menu1 menu6">
+                <li>即时通讯</li>
+                <li>邮件系统</li>
+                <a href="zxjlyjfkckly.html"> <li>意见反馈</li></a>
+                <li>用户注册</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+<!--zhongjian-->
+<div class="aa">
+    <div class="gtitle"></div>
+<div class="g_left">
+<div class="g_title">
+    <div class="g_text"></div>
+</div>
+    <div class="g_bd">
+        专家姓名&nbsp;<input  class="g_input" type="text"><br><br>
+        工作单位&nbsp;<input  class="g_input" type="text"><br><br>
+        技术职称&nbsp;<select  class="g_input2" >
+       <option></option>
+        </select><br><br>
+        从事专业&nbsp;<select  class="g_input2" >
+        <option></option>
+    </select><br><br>
+        所属行业&nbsp;<select  class="g_input2" >
+        <option></option>
+    </select><br><br>
+    <div class="g_search">
+       <a href="g_a.html" ><div class="g_search1"></div></a>
+        <a href="g_a.html" > <div class="g_search2"></div></a>
+    </div>
+</div>
+<div class="tongyongleft-pic1"></div>
+<div class="tongyongleft-huiyuanliebiao">
+    <div class="tongyongleft-huiyuanliebiao-word">在线会员列表</div>
+    <ul class="tongyongleft-huiyuanliebiao-pic">
+        <li><img src="images/xiaoren.jpg"><br>李老师</li>
+        <li><img src="images/xiaoren.jpg"><br>石头</li>
+        <li><img src="images/xiaoren.jpg"><br>磊子</li>
+        <li><img src="images/xiaoren.jpg"><br>admin</li>
+        <li><img src="images/xiaoren.jpg"><br>春天里</li>
+        <li><img src="images/xiaoren.jpg"><br>summe</li>
+        <li><img src="images/xiaoren.jpg"><br>碰碰车</li>
+        <li><img src="images/xiaoren.jpg"><br>王明华</li>
+    </ul>
+</div>
+<div class="tongyongleft-pic2"></div>
+<table class="tongyongleft-all-bottom">
+    <tr><td class="tongyongleft-all-bottom-t1" colspan="2"><span class="tongyongleft-all-bottom-t1-s">&nbsp;  黑龙江省中俄人文合作协同创新中心</span></tr>
+    <tr><td class="tongyongleft-all-bottom-t1">&nbsp; 主办单位：</td><td class="tongyongleft-all-bottom-t2">黑龙江大学</td></tr>
+    <tr><td class="tongyongleft-all-bottom-t1">&nbsp; 协办单位：</td><td class="tongyongleft-all-bottom-t2">黑龙江大学</td></tr>
+    <tr><td class="tongyongleft-all-bottom-t1">&nbsp; 联系地址：</td><td class="tongyongleft-all-bottom-t2"> 黑龙江省中俄人文合作协同创新中心</td></tr>
+    <tr><td class="tongyongleft-all-bottom-t1">&nbsp; 主办单位：</td><td class="tongyongleft-all-bottom-t2">0451-8888888</td></tr>
+    <tr><td class="tongyongleft-all-bottom-t1">&nbsp; 主办单位：</td><td class="tongyongleft-all-bottom-t3">HLJ@163.com</td></tr>
+</table>
+</div>
+<div class="g_right">
+<div class="g_title2">
+    <div class="g_text2"></div>
+    <div class="g_text3">首页>专家数据库>国内专家</div>
+</div>
+<div class="g_center">
+    <div class="g_pic"></div>
+    <div class="g_text4">
+        <div class="g_text5">李永礼</div>
+        <ul class="g_text6">
+           <li> <span class="g_border">工作单位：</span><span class="g_color">信息科学</span></li>
+            <li><span class="g_border">从事专业：</span><span class="g_color">计算机科学技术基础学科</span></li>
+            <li><span class="g_border"> 现居城市：</span><span class="g_color">北京</span></li>
+            <li><span class="g_border">代表论文、著作：</span></li>
+        </ul>
+        <ul class="g_text7">
+            <li><span class="g_border">行政职务：</span><span class="g_color">教授</span></li>
+            <li><span class="g_border">所属行业：</span><span class="g_color">信息科学</span></li>
+        </ul>
+        <ul class="g_text8">
+            <li><span class="g_color">《小康文化论》广东省出版集团，广东教育出版社，2007-10</span></li>
+            <li><span class="g_color">《在实践中前行的社会主义》中共中央党校出版社，2007-10</span></li>
+        </ul>
+    </div>
+</div>
+<div class="g_line"></div>
+<div class="g_center">
+    <div class="g_pic"></div>
+    <div class="g_text4">
+        <div class="g_text5">李永礼</div>
+        <ul class="g_text6">
+            <li> <span class="g_border">工作单位：</span><span class="g_color">信息科学</span></li>
+            <li><span class="g_border">从事专业：</span><span class="g_color">计算机科学技术基础学科</span></li>
+            <li><span class="g_border"> 现居城市：</span><span class="g_color">北京</span></li>
+            <li><span class="g_border">代表论文、著作：</span></li>
+        </ul>
+        <ul class="g_text7">
+            <li><span class="g_border">行政职务：</span><span class="g_color">教授</span></li>
+            <li><span class="g_border">所属行业：</span><span class="g_color">信息科学</span></li>
+        </ul>
+        <ul class="g_text8">
+            <li><span class="g_color">《小康文化论》广东省出版集团，广东教育出版社，2007-10</span></li>
+            <li><span class="g_color">《在实践中前行的社会主义》中共中央党校出版社，2007-10</span></li>
+        </ul>
+    </div>
+</div>
+<div class="g_line"></div>
+<div class="g_center">
+    <div class="g_pic"></div>
+    <div class="g_text4">
+        <div class="g_text5">李永礼</div>
+        <ul class="g_text6">
+            <li> <span class="g_border">工作单位：</span><span class="g_color">信息科学</span></li>
+            <li><span class="g_border">从事专业：</span><span class="g_color">计算机科学技术基础学科</span></li>
+            <li><span class="g_border"> 现居城市：</span><span class="g_color">北京</span></li>
+            <li><span class="g_border">代表论文、著作：</span></li>
+        </ul>
+        <ul class="g_text7">
+            <li><span class="g_border">行政职务：</span><span class="g_color">教授</span></li>
+            <li><span class="g_border">所属行业：</span><span class="g_color">信息科学</span></li>
+        </ul>
+        <ul class="g_text8">
+            <li><span class="g_color">《小康文化论》广东省出版集团，广东教育出版社，2007-10</span></li>
+            <li><span class="g_color">《在实践中前行的社会主义》中共中央党校出版社，2007-10</span></li>
+        </ul>
+    </div>
+</div>
+<div class="g_line"></div>
+<div class="g_center">
+    <div class="g_pic"></div>
+    <div class="g_text4">
+        <div class="g_text5">李永礼</div>
+        <ul class="g_text6">
+            <li> <span class="g_border">工作单位：</span><span class="g_color">信息科学</span></li>
+            <li><span class="g_border">从事专业：</span><span class="g_color">计算机科学技术基础学科</span></li>
+            <li><span class="g_border"> 现居城市：</span><span class="g_color">北京</span></li>
+            <li><span class="g_border">代表论文、著作：</span></li>
+        </ul>
+        <ul class="g_text7">
+            <li><span class="g_border">行政职务：</span><span class="g_color">教授</span></li>
+            <li><span class="g_border">所属行业：</span><span class="g_color">信息科学</span></li>
+        </ul>
+        <ul class="g_text8">
+            <li><span class="g_color">《小康文化论》广东省出版集团，广东教育出版社，2007-10</span></li>
+            <li><span class="g_color">《在实践中前行的社会主义》中共中央党校出版社，2007-10</span></li>
+        </ul>
+    </div>
+</div>
+<div class="g_line"></div>
+<div class="g_center">
+    <div class="g_pic"></div>
+    <div class="g_text4">
+        <div class="g_text5">李永礼</div>
+        <ul class="g_text6">
+            <li> <span class="g_border">工作单位：</span><span class="g_color">信息科学</span></li>
+            <li><span class="g_border">从事专业：</span><span class="g_color">计算机科学技术基础学科</span></li>
+            <li><span class="g_border"> 现居城市：</span><span class="g_color">北京</span></li>
+            <li><span class="g_border">代表论文、著作：</span></li>
+        </ul>
+        <ul class="g_text7">
+            <li><span class="g_border">行政职务：</span><span class="g_color">教授</span></li>
+            <li><span class="g_border">所属行业：</span><span class="g_color">信息科学</span></li>
+        </ul>
+        <ul class="g_text8">
+            <li><span class="g_color">《小康文化论》广东省出版集团，广东教育出版社，2007-10</span></li>
+            <li><span class="g_color">《在实践中前行的社会主义》中共中央党校出版社，2007-10</span></li>
+        </ul>
+    </div>
+</div>
+<div class="g_line"></div>
+
+<ul class="yema-1">
+    <li class="yema-1-3"><span class="yema-1-1-s">共8页</span></li>
+    <li class="yema-1-2">首页</li>
+    <li class="yema-1-1"><</li>
+    <li class="yema-1-4">1</li>
+    <li class="yema-1-4">2</li>
+    <li class="yema-1-4">3</li>
+    <li class="yema-1-4">4</li>
+    <li class="yema-1-4">5</li>
+    <li class="yema-1-4">6</li>
+    <li class="yema-1-1"> ></li>
+    <li class="yema-1-2">尾页</li>
+</ul>
+</div>
+</div>
+
+
+<!--尾-->
+
+<div class="footer">
+    <div class="footer01">
+        <div class="footertop">
+            <ul class="footer_tp">
+                <li class="footer1"></li>
+                <li class="footer2" ></li>
+                <li class="footer3"></li>
+                <li class="footer4"></li>
+            </ul>
+        </div>
+        <div class="footermiddle">
+            <a href="">   <div class="footeryq">友情链接</div></a>
+            <ul class="footerlj">
+                <a href=""> <li class="footerbai">国家相关部门</li></a>
+                <a href="">  <li>2011计划专栏</li></a>
+                <a href=""> <li>国家教育部</li></a>
+                <a href=""> <li>国家科技部</li></a>
+            </ul>
+            <ul  class="footerlj">
+                <a href=""> <li  class="footerbai">省级相关部门</li></a>
+                <a href=""> <li>黑龙江省教育厅</li></a>
+                <a href=""> <li>黑龙江省科技厅</li></a>
+            </ul>
+            <ul  class="footerlj">
+                <a href=""><li  class="footerbai">核心共建单位</li></a>
+                <a href=""> <li>黑龙江大学</li></a>
+                <a href=""> <li>黑龙江大学</li></a>
+            </ul>
+            <ul  class="footerlj">
+                <a href="">  <li  class="footerbai">其他相关单位</li></a>
+                <a href=""> <li>黑龙江大学</li></a>
+                <a href=""> <li>黑龙江大学</li></a>
+            </ul>
+        </div>
+        <div class="footerbottom">
+            版权所有：中俄人文合作协同创新中心  地址：中俄人文合作协同创新中心 黑ICP备00000000号<br>
+            技术支持电话：0451-87960700 English h1jhrb@163.com
+        </div>
+
+
+
+    </div>
+</div>
+</body>
+</html>
